@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { VehiculosComponent } from './vehiculos.component';
+import { ListarVehiculosComponent } from './listar-vehiculos/listar-vehiculos.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [VehiculosComponent]
+  exports: [ListarVehiculosComponent],
+  declarations: [ListarVehiculosComponent]
 })
 export class VehiculosModule { }
